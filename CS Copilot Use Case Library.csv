@@ -1,0 +1,138 @@
+﻿"Title","Description","Prompt example","CS Specificity ","Region","Sector","Role","Target User","Value Explanation","Time saved per task (in hour)","Frequency per Year ","Expandability","Quality improvement","Ambassador comment","Security Compliant","Security Comments","Approval status"
+"Timewriting Assistant for Daily Work History Logging","This Copilot use case helps engineers and office workers automatically generate their weekly timewriting logs by analyzing Outlook calendar events, Teams meetings, chat messages, and email activity based on microsoft 365 ecosystem. It extracts actual working hours, identifies attended calls and written communications, and maps them to the appropriate SO (Service Order) codes. The output is formatted in a structured table aligned with ASML’s timewriting format, making it easy to copy and paste into the official system. This reduces manual effort, improves accuracy, and ensures compliance with timewriting policies.","I want to analyze my office routine from Monday to Friday for timewriting. Specifically, I need to know when and for how long I actually worked each day. Organize it by hour and include items where I left logs by chatting or actually working. Highlight items where I attended calls or wrote chats in bold, and include SOs if possible so that it's easy to copy-paste. Refer to the attached image for the appropriate table format. Would you like me to now generate a full Monday–Friday version of this table using your actual meetings, chats, and emails from last week. Please continue with Monday through Friday in the same format and export the full week into an Excel or CSV file for easy copy-paste into ASML time-writing system. Please refer to timewriting policy : https://asml.sharepoint.com/sites/CS-KR-Ops-Support/Planning%20%26%20Control/PC%20CS%20FAQ/Time%20writing(Workday%20%26%20Fiori)/For%20Engineers/2025%20Timewriting%20policy%20updates.pdf ","CS Specific","Korea-Samsung","EUV","CS SEC EXE Comp ","Engineers",,"2","52","World Wide","High",,"Yes",,"3"
+"Rapid Dashboard Blueprint Generation to Accelerate Development","During the initial phase of dashboard creation, I typically need to write extensive front-end and back-end code to define data sources, visualization components, and interaction logic. Copilot can generate a complete blueprint based on my prompt, including data engineering and UI layout, significantly reducing the time spent on boilerplate coding.","Zion input","CS Specific","TW/SEA","OPS","Data Analyst","PLs","Each feature takes approximately 0.5 hours to develop. On average, 5–6 features are built per day, and the entire project spans 3 weeks.","7.5","12","World Wide","High",,"Yes",,"3"
+"Prepare for customer meetings by expected questions and comments about presentation ","After a draft of a powerpoint is completed, you can ask expected co pilot to give you example questions and comments that the customer might ask. You can give co-pilot a customer persona to get better feedback. Also you can request co-pilot to help you prepare an answer or improve the slides to cover the questions.","I’m a customer quality manager preparing this slide deck for Samsung EUV customers. Please review the slides and recent customer emails. The primary audience is a senior EUV quality manager who is very data-driven and focused on defectivity and tool uptime. They’ve previously raised concerns about recurring quality incident and slow cycle time. Based on this, generate 10 tough questions I might be asked during the presentation.”","CS Specific","Korea-Samsung","EUV","Customer Quality Manager","Managers","By getting feedback about slides, I am able to be better prepared for customer meeting and improve the quality of my slides","1","100","World Wide","High",,"Yes","CCI data need to be avoided","3"
+"Programming assistant","Doing any task that requires some programming knowledge from Excel to Powerbi Co-Pilot Greatly helps it generating the code or the plots required. This reduces the time spent upskilling on this dramatically.  ","Excel Type of graphs for data
+Excel Macro and Formula Generation
+Powerbi Code. ","CS Specific","Europe","DUV","TL","Engineers",,"3","0","World Wide","High",,"Yes",,"3"
+"Diagnostic time reduction - case question (by In-Bok Na)","""I think a function that quickly finds things from a 'know-where' perspective in Copilot is really useful.
+It seems to search based on OneNote and Outlook, and if you upload your Outlook PST file to OneDrive and don’t delete it, Copilot can even find and organize past issues and derive action points (APs), which really helps reduce diagnostic time.""","'please provide information on Overlay case due to 'MI-FD47' and GCQ drop'","CS Specific","Korea-Samsung","DUV","2nd line manager","Engineers",,"0.5","180","World Wide","Medium",,"No","Copilot can access outlook based on your search, uploading a PST file in one drive not sure if its needed ?  ","3"
+"Quickly Troubleshoot Custom Process Code","In my role I spend a good amount of time improving local processes and the best way to do this is with coding environments as it allows me to build something once, that everyone else can use to make their job easier day to day. As those who have coded before, debugging things that do not work can be troublesome and I have found co-pilot super useful for helping me navigate my code, or locate solutions to problems that others have already had with for example MATLAB diagnostic scripts.  ","This is my code, **code block**, and I am coding in the power apps enviornment. This code is attempting select a popup for the end user depending on what team code they have, and if they have properly filled out 3 other combo boxes. The code referencing the team code does not appear to be working properly as nothing is triggered. The team code is a comma delimited string, see any obvious issues with what I have written or is the issue likely somewhere else?","CS Specific","US","DUV","2nd Line Tech Lead","Engineers","Whenever I feel the need to diagnose a coding issue, it usually requires research and research on the internet with static searches is very slow.","2","100","World Wide","High",,"Yes",,"3"
+"VBA Excel Code creation","Utilize CoPilot to support with VBA code problems, solutions, optimization, etc. when building VBA code. ","Various prompts were used and more in a conversational way; since writing code is an iterative process. ","CS Specific","Netherlands","EUV","Analyst ","Engineers","Prevent mistakes, improve robustness","7","12","Team","High",,"Yes",,"3"
+"SAP Transaction WIKI","Today if you want to find out what is the purpose of SU3, ZMEC, ZMATCONF you need to check myASML, local KTs, Knowledge pages. Quality of these documents is also a gamble. With Co-pilot you have simple explanation (can be prompted for specific procedure-like instructions)","Describe what SU3 and how do i use it. 
+Explain what MB03 is and who uses it. 
+What is ZEQBI in context of SAP transaction.
+What is IQS3 and what do i use it for?
+Teach me please how to use ZTANGO transaction in ASML SAP system
+","CS Specific","US","OPS","Program Manager","all","It typically took me 5-10 min to locate KT first only never to find out what this transaction actually does. 10 - 15 mins saved per search.","0.5","200","World Wide","High",,"Yes",,"3"
+"Debugging PowerAutomate Queries","Used Copilot to debug issues with Microsoft's PowerAutomate backend while developing/modifying queries for an existing Automation Workflow (passdown automation).","One of my PowerAutomate flows is triggering itself twice. I believe it's not an accidental ""loop"" inside of the flow, since I actually see two instances of the flow (for each event) showing up in my run history, and there is no item inside my flow which can generate a trigger as far as I know. My trigger is ""When a new message is added to a chat or channel"", and I'm adding/updating items to a Microsoft List using my flow.","CS Specific","US","EUV","Technical Support","Engineers",,"2","5","Team","Low",,"Yes",,"3"
+"AI agent for AI automation with specific tasks","Team uses PLT logbook to record all system related information including downtime bucketing. The logbook is monitored daily and weekly to extract information for the availability of the system. This is transcribed manually. For shift to shift passdown, engineers review the logbook from actions performed when off-shift. This is also done manually. For escalations and XLDs, data is manually transcribed to bucket the details of the delays and structural issues. Having a method to automatically summarize and pull information from the logbook based on time interval and information needed would save ~16Hrs per week of engineer time.
+
+What is done:
+1. Logbook PLT collector is created and up running
+2. Automatic prompt Copilot AI submitter is created 
+3. Copilot respond collector is created 
+Challenges:
+1. Identify how structure data input is needed for AI to get best results
+2. Fine tune prompt to get: 
+a. Reliable results
+b. Consistent formatting
+","Work in progress to fine tune prompt. Most likely it will be set of prompt that run in separate sessions or combined. Here is current draft:
+You are professional summarizer. Here are links to logbook files per machine.
+For machine ET05: https://asml.sharepoint.com/sites/eScan11006s/Shared%20Documents/ET05%20Pilot1%20(Intel%20Logic)/ET05_Intel_Pilot1_Logs/mET05_logbook.txt
+Logbook file contain entries made by engineers, each entry has timestamp in ISO 8601 format
+example 1: 2025-06-18 14:27
+example 2: 2025-06-21 15:55
+and four letter abbreviation of engineer name
+example 1: LOIE
+example 2: POEI
+Each day starts with ""Plan for the Day"" and follows by actions taken on the tool
+Make summary for {startdate}.
+Summary should start with machine name, timestamp, what was ""Plan for the Day"" and then in bullet format what was done during this day
+followed by engineer abbreviation and problems occurred.
+Cover whole day. Highlight actions by green color and issues by red color.
+Indicate if ""Plan of the day"" was accomplished. Be precise and explicit.
+
+Here is example of summary:
+🛠 Machine: ET05
+Date: 2025-07-19
+Plan for the Day:
+Action 1
+Action 2
+Action 3
+✅ Actions Taken:
+🟩 time stamp — action 1 (LOIE)
+🟩 time stamp — action 2 (LOIE) 
+🟥 Issues Encountered:
+🟥 time stamp — Issue 1 (POEI) 
+🟥 time stamp — Issue 1 (LOIE) 
+ Outcome:","CS Specific","US","HMI","Data Engineer","Engineers",,"16","52","World Wide",,,"No","Logbooks as we know would have CCI data, need to have a risk acceptance on using logbook with copilot","3"
+"Plotting Graph with excel with copilot python advanced tool","Helps me to graph out different graph at their view. Can create helpful insight highlights and display my story better","Help me Create a timeline chart for analysis DVS trend over time base on this data set? (Highlight those excel cell)","CS Specific","TW/SEA","APPs","Project Lead","PLs","once per case","0.2","0",,"Medium",,"Yes",,"3"
+"Create better problem descriptions for escalations.","Quality of problem descriptions, and in general PCCSIMs isn't always high or consistent across regions. For non-native English speaking people they may have difficulty writing a problem description that makes sense in English, Translate tools don't have the ASML relationship knowledge. 
+
+A user could for example start to write their problem description in their native language and copilot, using it's ASML knowledge, can make a problem description that uses a better explanation to better describe the problem which can be used for future knowledge or the escalation process.","""Please write a problem description regarding the lighting issue related to room heating system. Include emails “X” and “Y” for additional information. Respond in English and create a description suitable for escalation to the next support level.""","CS Specific","Netherlands","CS Central",,"Engineers","Hard to measure, but may increase productivity for certain individuals.","0","0","World Wide","Medium",,"No","PCCSIM will have sometimes CCI data","3"
+"Use Copilot to digitize and optimize the 'Fad Job Assignment' process","Benefits of Using Copilot to Digitize the Fad Job Assignment Process
+
+1. Efficiency Optimization through Historical Data Analysis
+Copilot analyzes historical job assignment records to identify which engineers have previously performed a specific action and how many times. This enables the system to recommend the most experienced personnel for each task, improving execution speed and reducing onboarding time.
+
+2. Reduction of MO (Mistake Occurrence) Rate
+By assigning tasks to individuals with proven experience, Copilot minimizes the likelihood of errors and rework. This leads to higher process quality and more reliable outcomes.
+
+3. Streamlined Dispatching Workflow
+The digitized process eliminates manual coordination, enabling real-time task allocation and status tracking. This reduces communication overhead and improves responsiveness.","Analyze the 'TN Job Assignment' table to identify candidates for today's REMA SWAP action by counting how many times each engineer has previously performed REMA SWAP.","CS Specific","TW/SEA","EUV","Project Lead","Managers",,"0.5","3,650","World Wide","High",,"Yes",,"3"
+"End-to-End Workflow Automation with Copilot Agents","Copilot Studio can execute a series of user-defined steps automatically, such as opening a browser, navigating, searching, and extracting data—enabling end-to-end workflow automation.
+AI agents function similarly to VBA or Power Automate, executing tasks based on instructions to retrieve data, process information, and generate outputs without manual copy-paste.
+These tools can intelligently handle decision-making and branching, continuing execution even when human intervention or exceptions occur.
+They can automate daily operations like extracting information from SAP or emails, summarizing and analyzing it, and initiating follow-up actions—freeing up users for higher-level analysis and decision-making.","“Automatically extract supply data from SAP and send a summary email to the CS team.”","CS Specific","TW/SEA","CSCM","Supply Chain Coordinator","Office worker","These tools reduce manual effort in repetitive tasks like data retrieval, formatting, and communication. They enable intelligent automation that adapts to exceptions and continues execution. They improve scalability and standardization across teams.","0.5","0","World Wide","High",,"No","Need to review the usage of Agends ","3"
+"Creating work instructions according to template combining all BKMs","It's related to my previous entry as using co-pilot as ASML SAP wiki. Based on fragmented and scattered information i can prompt co-pilot to help me create work instruction meeting all necessary requirements in roughly 3-4 minutes per piece, greatly simplifying process of collecting information that exist in different documents. ","2 prompts: 
+Teach me please how to use ZTANGO transaction in ASML SAP system
+
+using information above, can you prepare L5 work instruction WORD File containing: 
+- Purpose, Scope, Roles
+- Inputs/Outputs
+- Step-by-step instructions (skip placeholders for screenshots)
+- ASML-specific checks
+- Related transactions and S/4 notes
+- Field‑by‑field tips (most common questions)
+- troubleshooting guide, if applicable.
+
+that fits our CS documentation style (using the L5 template).","CS Specific","US","ALL","Project Manager","Managers","Dedicated teams create work instructions daily, depending on complexity can be as easy as 30 mins to 2hrs per individual document.","1","200","World Wide","High",,"Yes",,"3"
+"Create a dashboard summary from a raw data excel file.  ","Scenario: A user needed to create a dashboard summarizing the completed status of various training codes for different user departments from an Excel file named ""CS DUV L2 L3 training history 20250917 1.xlsx.""
+Steps Taken:
+Initial Request: The user requested a dashboard summarizing the completed status of each training code for each user department.
+Data Processing:
+Copilot extracted the training records and grouped them by user department, training code, and transcript status (e.g., Completed, Withdrawn, Cancelled).
+A pivot table was created to count the number of records for each combination, providing a clear overview of training completion status by department and code.
+A summary table (CSV) was generated for further analysis or reporting.
+Dashboard Outputs:
+A summary table (CSV) showing the count of each training code by their completion status for each user department.
+An attempt to generate a bar chart for visual comparison, but there was a technical issue with the plotting step. The summary table contained all the data needed to create charts in Excel or Power BI.
+Further Customization:
+The user requested the addition of a category column to the data, which was mapped using a provided table.
+The user requested the exclusion of specific user departments from the summary.
+The user requested an optimized dashboard showing only the completed status, with user departments as rows and training codes grouped under categories as columns.
+The user requested the reorganization of dashboard columns in a specific order and the inclusion of a ""Target"" row (left empty).
+Final Output:
+The final dashboard was reorganized to match the user's requested layout, showing only the completed status for each user department (excluding the specified departments). The columns were sorted in the exact order specified, and a ""Target"" row was included at the bottom (empty).
+Conclusion: Microsoft 365 Copilot successfully assisted the user in creating a customized training dashboard by processing the data, generating summary tables, and providing visualizations. The user was able to make specific requests for further customization, and Copilot delivered the desired results efficiently.","Context: I have an Excel file named ""CS DUV L2 L3 training history 20250917 1.xlsx"" containing training records for various user departments and training codes.
+Role: Act as a data analyst specializing in dashboard creation.
+Task: Summarize the completed status of each training code for each user department. Group data by user department, training code, and transcript status (Completed, Withdrawn, Cancelled). Create a pivot table to count records for each combination and generate a summary table (CSV) for reporting. Attempt to create a bar chart for visual comparison.
+Constraints: Add a category column mapped from a provided table. Exclude specified user departments from the summary. Optimize the dashboard to show only the completed status, with user departments as rows and training codes grouped under categories as columns. Reorganize dashboard columns in a specific order and include a ""Target"" row (left empty) at the bottom.","CS Specific","China","DUV","Project Ops - Knowledge Management","PLs","In a monthly update requirement this use case can save about 20 minutes per case","4","12","World Wide","Medium","submitted by ambasador",,,"3"
+"Technical Training Content Development","Learning and Knowledge Management Solution Designers and Developers develop technical training content for CS roles using the ADDIE framework and CS Academy standards. Content is tailored to specific systems and roles (e.g., DUV, EUV, Engineers, PLs, Coordinators) and delivered through formats like PowerPoint, VR, and recorded service actions. AI tools such as the Copilot M365 suite and Synthesia support scalable content creation and personalized learning. Security and compliance are ensured for Company Secret materials (except Synthesia for now), and feedback mechanisms guide continuous improvement.","Create a training module outline for CS engineers focused on the EXC 5200 system. The module should include:
+
+Learning objectives aligned with CS Universal Skills (e.g., 4.2, 5.1)
+Recommended delivery formats (CBT, ILT, VR, etc.)
+Prerequisites based on existing curricula (e.g., SRC-L2-FR2CO2)
+Evaluation strategy using Kirkpatrick Levels 1–3
+Timeline and resource estimates for development
+Suggestions for integrating Copilot for personalized coaching and feedback
+Compliance considerations for Company Secret materials
+
+Use the ADDIE framework to structure the response and ensure alignment with CS GTC training development standards.","CS Specific","Netherlands","ALL","Learning and Knowledge Management Solution Designer","Learning and Knowledge Management","AI content generation ensures consistent format and quality across training modules, while saving time for developers managing multiple projects. Tools like Copilot and Synthesia streamline creation and support scalable, efficient delivery.","80","2","Same role","High","This is being investigated and tried out by the CS Academy already to see what is possible.",,"Copilot M365 suite has been approved for use on Company Secret training materials but Synthesia is still under discussion. ","3"
+"Developing GUI for HC Simulation model","I have been using Co-Pilot to develop the Python code for a HC model application's GUI development. HC simulation tool is a new application which currently being developed by our project team to simulate different business cases and calculate head count for CS.  In our project team, we don't have the skills to do develop the user interface but with Co-Pilot even without having any Python knowledge, I was able to create the code needed. The development of this code would take at least 60-80 hours together with training however it only took 4-6 hours to develop full GUI code with required functionality","Take the code in the path ""C:\Users\mcanakka\Desktop\HC Model GUI.txt"" then modify it based on my requirements listed below.
+1) Don't open the output file automatically but instead ask the user if he wants to open the export file
+2) When chart is created in other screen bring that screen in front of HC Model screen.","CS Specific","Netherlands","CS Central","Project Lead","All",,"0.5","0","Team","None",,,,"3"
+"Handling Expert Challenge on Product Definition: Maintaining Evidence-Based Consistency under User Pressure","In daily Apps and CS work, Copilot is frequently used by senior engineers to quickly verify platform-level definitions (e.g. scanner specifications, imaging parameters, terminology used in KT documents).
+In this use case, an experienced Apps engineer challenged Copilot’s answer regarding the XT400 exposure slit size, repeatedly proposing alternative values (26×3 mm, 26×4 mm), with high confidence and technical justification.
+This scenario represents a high-risk interaction:
+
+The user is knowledgeable and persuasive
+The topic concerns platform-level product definition
+Incorrect acceptance would undermine trust in Copilot and propagate wrong knowledge","For following chat, please stick to the official product definition and do not change the conclusion simply because I challenge it.","CS Specific","China","Customer Service / Applications","CS Apps","Senior Apps Engineers and CS Engineers using Copilot for product definition validation",,"0.5",,,,,,,"3"
+"Using copilot summary cases in similar error and make timeline for one machine suffered this error ","For one of customers, their machines always suffered WH-8897. We have many history e-mails in outlook, so we let copilot collect e-mails and other SharePoint files to analysis the difference of WH-8897 with machines in other fabs and summarize the error timeline in that machine.","1. Search all my e-mails related to error WH-8897 and summarize. what's more give me you information link.
+2. Just for 7452 WH-8897, summarize timeline and based on information you collect give the possible analysis for it.",,"China",,,,,"4",,,,,,,"0"
+"Designing Quick Menu Button with ASML Database Integration","We're designing a quick menu functionality to enable local CS self-serve WoW and this may leverage Copilot studio, to involve chat bot into our platform. During the platform framework design period, we've also leveraged Copilot to rewrite/simplify our existing L5 long work instruction and design an easy reading workflow chart for CS to quickly get accurate direction on relevant support.
+This quick menu design may save almost 0.8 FTE's effort and could be scaled worldwide if successfully embedded with chat bot. ","Help draw a workflow chart based on existing wording description.",,"CN","OPS","Service Coordinator","CS",,"1,200",,,,,,,"1"
+"Using Copilot to accelerate MF3 root cause analysis and escalation decision-making","In MF3-related scanner issues, symptoms are often cross-domain (mechanical, control, dynamic behavior), making root cause analysis and escalation decisions time-consuming.
+Copilot is used to consolidate case data (symptoms, test results, logs, historical cases, and engineering assumptions), summarize key findings, and support structured decision-making during customer-facing escalations.","Summarize this MF3 case by symptoms, possible root causes, eliminated items, supporting evidence, and recommended next actions for escalation",,"Taiwan (Tainan)","DUV ","Customer Support ","Senior engineers, technical leads, and section managers handling high-risk MF3-related escalations",,"6",,,,,,,"0"

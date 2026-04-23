@@ -1,0 +1,150 @@
+﻿"Created By","Use Case Title","Use Case Description","Use Case Journey","Use Case Benefits","Risk(s) or Mitigations","Estimated %23 of users","Your Role","If you didn't find a suitable option above, please specify your role here ___________ (non-mandatory)"
+"Caroline Muller","Content and Messaging Drafting","Writing effective content with AI, with a human touch for different purposes.
+Application: Copilot Chat","<div>Step 1&#58; Define the voice and the task – AI response&#58;
+To draft this effectively, I need&#58;
+– Platform name
+– Date and time (including time zone)
+– Expected impact during downtime
+– Any action required from employees
+– Support or contact information
+<p>Step 2&#58;&#160;Prompt Copilot with clear inputs – AI response
+We would like to inform you that the Internal Comms Platform will 
+undergo a planned update on Tuesday from 10&#58;00 to 10&#58;30 CET. 
+During this time, the platform may be temporarily unavailable. No 
+action is required from employees. If you experience any issues, 
+please contact the Service Desk for support.</p><p>Step 3&#58;&#160;Iterate for tone and messaging – AI response
+Refined version&#58; The Internal Comms Platform will undergo planned maintenance on Tuesday from 
+10&#58;00–10&#58;30 CET. During this window, the platform may not be accessible. No action is required from 
+employees. If you encounter issues after the maintenance window, please contact the Service Desk.</p><p>Step 4&#58;&#160;Check with a 'human' eye – AI response
+On Tuesday from 10&#58;00–10&#58;30 CET, the Internal Comms Platform will be 
+unavailable due to planned maintenance. During this window, you may not be 
+able to access or publish content. No action is required, but please avoid 
+scheduling updates during this time. After 10&#58;30 CET, access should be fully 
+restored. If you continue to experience issues, contact the Service Desk.
+</p><p>Check final prompts in pdf attached.</p></div>","[""Improved accuracy"",""Improved user experience"",""Streamlined workflows""]",,"150","Sales / Marketing / Communications",
+"Caroline Muller","Data and Insights Analysis for Communications","Quantitative Analysis: Process of using mathematical, statistical, and computational modeling to analyze, measure, 
+and interpret data for decision-making. 
+Qualitative Analysis: Process of examining non-numerical data—such as text, video, or audio—to identify patterns, 
+themes, and underlying meanings.
+Key Approaches to Combining Methods:
+1. Explanatory Sequential Design: Quantitative data is gathered first, followed by qualitative research (e.g., 
+interviews) to explain the numerical findings in more detail.
+2. Exploratory Sequential Design: Qualitative data is collected first to explore a phenomenon, followed by quantitative 
+methods to confirm or generalize findings.
+3. Convergent Design: Both data types are collected simultaneously, then merged to compare or validate findings. ","Step 1 - Quantitative research - Examine survey data and create trends<div style=""margin-top&#58;14px;margin-bottom&#58;14px;"">Start by 
+analyzing the 
+excel sheet 
+with the job 
+search survey 
+responses 
+with Copilot 
+and then 
+validate the 
+response by 
+checking 
+some of the 
+survey 
+outcomes 
+using excel 
+formulas.<p>Prompt&#58; As a data 
+analyst, 
+analyze the 
+survey data, 
+create a trend 
+per question 
+in the job 
+search survey 
+used to 
+gather data 
+on job search 
+on ASML 
+website. Also, 
+provide excel 
+formulas to 
+verify the 
+answers in 
+excel.</p><p>Step 2 - Qualitative Research</p><div style=""margin-top&#58;14px;margin-bottom&#58;14px;"">Ask for a 
+summary of 
+the open-ended 
+questions 
+including a 
+frequency of 
+summaries 
+to prioritize 
+the 
+responses.<p>Prompt&#58;&#160;Summarize 
+the 
+qualitative 
+data / 
+feedback 
+per question 
+and 
+prioritize by 
+frequency 
+for 
+summaries.</p><p>Step 3 - Merging and Interpretation</p><div style=""margin-top&#58;14px;margin-bottom&#58;14px;"">Using the 
+information 
+gathered in 
+steps 1 and 
+2, develop 
+practical 
+insights that 
+can improve 
+future 
+events or 
+serve as 
+valuable 
+feedback for 
+our 
+leadership.<p>Prompt&#58;&#160;Using the 
+trends and 
+insights in 
+qualitative 
+data, 
+provide 
+practical 
+insights that 
+can improve 
+experience 
+for 
+candidates 
+and provide 
+a roadmap 
+with easy 
+wins and 
+larger 
+projects.</p><p>See screenshots attached for more information.</p><br></div> <br></div></div>","[""Increased efficiency"",""Improved accuracy"",""Reduced risk""]",,"150","Sales / Marketing / Communications",
+"Caroline Muller","Story Activation Planning in Communications","Use AI to create an actionable overview and calendar of steps to take, by when and by whom in 
+order to activate* a story that resonates well with ASML’s key audiences.","Step 1 -&#160;Get started&#58; Establish goal based on 
+activation use case
+Think about a potential use case. Create a prompt and describe 
+what you are trying to achieve, explain your role and what tasks 
+you are expecting AI to support you with.<p>Prompt&#58;&#160;“I am a communication professional. Help me with a 
+structured approach to bringing a published story to life by 
+amplifying it across external channels and engaging key 
+comms audiences to drive brand awareness and 
+familiarity.”</p><p>Step 2 -&#160;Brief Copilot&#58; Gather your key input and 
+provide context 
+What project details are available and required to brief AI on the 
+desired outcome? Create a prompt to get support for your 
+briefing.</p><p>Prompt&#58;&#160;“Help me create a comprehensive list of all source 
+materials, assets, information and approvals needed to 
+ensure we are fully prepared to amplify a published story 
+across external channels. 
+Ask me structured questions one by one to gather the 
+inputs you need. After I answer, automatically continue 
+with the next question.&quot;</p><p>Step 3 -&#160;AI request&#58; Create activation checklist
+Ask Copilot to support you to create a checklist can use 
+internally to ensure everything is ready for amplifying a 
+published story.</p><p>Prompt&#58;&#160;“Generate a clear “source pack” checklist that includes 
+story materials, creative assets, brand requirements, 
+approvals, and any dependencies relevant for external 
+storytelling at ASML based on the input I have provided.&quot;</p><p>Step 4 -&#160;Input for your deliverable&#58; build the activation plan
+Ask Copilot to support you with an activation planning, targeted 
+to the key audiences you aim to engage with and using ASML 
+channels.</p><p>Prompt&#58;&#160;“This is the story I aim to activate by July 2026. Generate 
+your full activation plan with a calendar with steps to take 
+by when and by whom, based entirely on the inputs I have 
+provided, with recommended channels to engage with 
+ASML’s key audiences.”</p><p><br></p><p>See screenshots attached.</p>","[""Increased efficiency"",""Improved accuracy"",""Enhanced collaboration"",""Improved user experience"",""Streamlined workflows""]",,"150","Sales / Marketing / Communications",
+"Sanna Mokaddem","I use for my role as Project coordinator to communicate with all stakeholder in and outside ASML","Analyze cost and lead time to optimize procurement ","Step 1 - In Excel, analyze data with Copilot using this prompt&#58; “Compare average cost and lead time of aluminum vs titanium for part RC-CLMP-2025.”","[""Increased efficiency"",""Enhanced collaboration"",""Improved accuracy""]",,"100","Procurement / Supply Chain / Logistics","Project Coordinator "

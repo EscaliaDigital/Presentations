@@ -1,0 +1,25 @@
+﻿"SortOrder","Title","Answer"
+,"What are AI agents? ","<div><p style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;"">Agents are AI systems that help individuals and
+organizations manage tasks and make informed decisions. Using agents within
+Copilot, you and your business can drive efficiency and get more work done
+faster.</p>&#160;</div>"
+,"What can agents do? ","<p style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;margin-bottom&#58;0in;line-height&#58;normal;"">Agents can
+perform various tasks to assist people and organizations&#58;</p><ol style=""margin-bottom&#58;0in;margin-top&#58;0in;"" start=""1"" type=""1"">
+ <li style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;margin-bottom&#58;0in;line-height&#58;normal;""><b>Retrieve information&#58;</b>&#160;Query systems like
+     HR, CRM, or financial databases.</li>
+ <li style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;margin-bottom&#58;0in;line-height&#58;normal;""><b>Help with basic tasks&#58;</b>&#160;Submit expense
+     reports, update CRM systems, create IT help desk tickets.</li>
+ <li style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;margin-bottom&#58;0in;line-height&#58;normal;""><b>Perform specialized roles&#58;</b>&#160;Facilitate
+     meetings, compile research reports, analyze data sets.</li>
+ <li style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;margin-bottom&#58;0in;line-height&#58;normal;""><b>Automate processes&#58;</b>&#160;Handle financial
+     planning, sales qualification, and supplier communications.</li></ol><br>"
+,"Can I build AI agents from scratch?","<div style=""margin&#58;0px 0in 10.6667px;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;""><span style=""color&#58;rgb(66, 66, 66);background-color&#58;rgb(250, 250, 250);display&#58;inline !important;""></span></div><span style=""background-color&#58;rgb(250, 250, 250);"">Yes, this will be possible in a future phase. We're currently <span style=""background-color&#58;rgb(250, 250, 250);display&#58;inline !important;"">actively working on the next steps to make it happen and also&#160;</span>exploring the best timing for implementing this feature.</span><br>"
+,"How do agents work? ","<p style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;"">Agents are AI programs that are comprised of&#58;<br><b>What it knows—</b>The data the agent has access to and the memory it stores.<br><b>What it processes</b>—The ability to analyze data, recognize patterns, make
+decisions, and learn over time.<br><b>What it can do—</b>The actions it can take across the surfaces such as the
+apps and systems it has access to.</p><br>"
+,"How do AI agents differ from traditional AI models? ","<p style=""margin&#58;0in 0in 8pt;line-height&#58;115%;font-size&#58;12pt;font-family&#58;Aptos, sans-serif;"">Traditional AI models help individuals be more efficient. AI
+agents, however, can execute business processes. They range from simple
+prompt-and-response agents to advanced, fully autonomous agents that can
+complete entire workflows from start to finish. Agents can think or reason,
+remember, be trained, and even know when to ask for help. This makes them
+versatile tools for various business applications.</p><br>"

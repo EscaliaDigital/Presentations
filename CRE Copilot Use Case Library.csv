@@ -1,0 +1,63 @@
+﻿"Created By","Use Case Title","Use Case Description","Use Case Journey","Use Case Benefits","Risk(s) or Mitigations","Estimated %23 of users","Your Role","If you didn't find a suitable option above, please specify your role here ___________ (non-mandatory)"
+"Thomas Dube","Operational Readiness with Copilot and CRE SharePoint","Layering Microsoft 365 Copilot on top of the existing Wilton CRE SharePoint site (The Site Libraries categorize exact building plans, product/asset data, and room information). Leaders and technicians can ask natural‑language questions (e.g., “Show the a table of the rooms that have cleanroom ISO level 5, sort by department and give the total usable square footage"") and have Copilot search, reason over, and extract the right drawings, specs, and locations—then produce concise briefings or comparisons in seconds. The result is having the correct information in hand for - accurate incident response, more efficient maintenance, and better decision support for space planning and long‑term studies.
+","<div><p style=""margin&#58;0in;""><span><i>Our requests would be to use Copilot to reason and find information within a group of libraries in SharePoint. It could be simple Excel analysis and report to finding many types of data for an area of a building where a leak formed.&#160;</i></span></p><p style=""margin&#58;0in;""><span><br></span></p><p style=""margin&#58;0in;""><span>Data
+Reporting 1&#58; Using Excel and SharePoint, instruct Copilot to analyze the
+dataset and retrieve the matching floor</span><span style=""font-family&#58;&quot;Cambria Math&quot;;"">‑</span><span>plan files from the SharePoint library.</span></p><p style=""margin&#58;0in;""><span>Copilot
+Prompt&#58; “Create a table that includes room number, building number, floor
+number, and the floor</span><span style=""font-family&#58;&quot;Cambria Math&quot;;"">‑</span><span>plan link for all conference rooms assigned to the
+D&amp;E department.”</span></p><p style=""margin&#58;0in;"">&#160;</p><p style=""margin&#58;0in;"">Data Reporting 2&#58;
+Use Excel to analyze cleanroom allocation by department.</p><p style=""margin&#58;0in;"">Copilot Prompt&#58;
+“Analyze the dataset and produce a table showing all departments that occupy
+cleanroom space. For each department, calculate the total usable square footage
+by ISO level.”</p><p style=""margin&#58;0in;"">&#160;</p><p style=""margin&#58;0in;""><span>Data
+Mining 1&#58; Using the SharePoint library, retrieve all files that contain
+information about the sprinkler system, piping, or fire</span><span style=""font-family&#58;&quot;Cambria Math&quot;;"">‑</span><span>protection
+components located in Area 6 of Building W77.</span></p><p style=""margin&#58;0in;""><span>Copilot
+Prompt&#58; “Copilot, search the SharePoint library and list all documents related
+to the sprinkler system or any fire</span><span style=""font-family&#58;&quot;Cambria Math&quot;;"">‑</span><span>protection components in Building W77, specifically
+in Area 6.”</span></p><p style=""margin&#58;0in;"">&#160;</p><p style=""margin&#58;0in;"">Data Mining 2&#58;
+SharePoint library holds the latest Excel file with the occupancy and usage
+numbers - based on occupancy sensor data for the conference rooms. This
+scenario we are looking to add rooms to see how much impact each added room
+would have usage and occupancy.<span style="""">&#160;&#160; </span></p><p style=""margin&#58;0in;""><span>Copilot
+Prompt&#58; “Use the conference</span><span style=""font-family&#58;&quot;Cambria Math&quot;;"">‑</span><span>room data to report seating capacities, average
+utilization (%), and average people per use. Analyze how adding up to four new
+4</span><span style=""font-family&#58;&quot;Cambria Math&quot;;"">‑</span><span>person rooms would affect (a) utilization and (b)
+average people per use for the current inventory of rooms. Show how each
+additional room (+1, +2, +3, +4) changes the utilization of the existing rooms
+compared to baseline.”</span></p><p style=""margin&#58;0in;"">&#160;</p></div>","[""Increased efficiency"",""Better decision making"",""Improved user experience"",""Improved accuracy""]","We have security in place through group level access to the libraries - we would need to review and verify some libraries stay off limits to Copilot. ","20","Manager / Team Lead",
+"Paul van Diessen"," Overleggen & Meetings","Prompt 1 – Samenvatting overleg + acties
+
+“Vat het overleg van vandaag samen in maximaal 10 bullets. Benoem per actiepunt: actie, eigenaar en deadline (indien bekend).”
+
+Prompt 2 – Inhoud laatste overleg terughalen
+
+“Welke belangrijke beslissingen, open punten en risico’s zijn besproken in het laatste overleg [naam overleg]?”
+
+Prompt 3 – Actiepunten uit meerdere overleggen
+
+“Geef een overzicht van alle openstaande actiepunten uit de laatste 3 overleggen over [projectnaam], gesorteerd op urgentie.”","Step 1 - In Excel, analyze data with Copilot using this prompt&#58; “Compare average cost and lead time of aluminum vs titanium for part RC-CLMP-2025.”","[""Increased efficiency""]",,"15","Project / Program Management",
+"Paul van Diessen","Projectrisico’s & Kansen","Prompt 1 – Risico’s & kansen uit specificaties
+
+“Analyseer [URS] en [APS] en identificeer de belangrijkste projectrisico’s en kansen. Geef per item een korte toelichting en mogelijke mitigerende maatregel.”
+
+Prompt 2 – Risico-overzicht op basis van projectdocumenten
+
+“Genereer een risico-overzicht (technisch, planning, kosten, safety, compliance) op basis van de geselecteerde projectdocumenten [selecteer document(en)].”
+
+","Step 1 - In Excel, analyze data with Copilot using this prompt&#58; “Compare average cost and lead time of aluminum vs titanium for part RC-CLMP-2025.”","[""Better decision making"",""Improved accuracy""]","Controleer alle output en gebruik het alleen als extra inspiratie aangezien het om project risico's gaat.","15","Project / Program Management",
+"Paul van Diessen"," Offertes, Scope & Vergelijkingen","Prompt 1 – Offertes vergelijken
+
+“Vergelijk [offerte A] met [offerte B] op scope, prijs, aannames, uitsluitingen en risico’s. Presenteer de verschillen overzichtelijk in een tabel.”
+","Step 1 - In Excel, analyze data with Copilot using this prompt&#58; “Compare average cost and lead time of aluminum vs titanium for part RC-CLMP-2025.”","[""Better decision making""]",,"15","Project / Program Management",
+"Paul van Diessen","E‑mails & Communicatie","Prompt 1 – Projectupdate e-mail
+
+“Stel een duidelijke projectupdate‑e-mail op aan het projectteam met de laatste stand van zaken, open actiepunten en eerstvolgende stappen. Gebruik als input [selecteer e‑mail of document].”
+
+Prompt 2 – Managementsamenvatting
+
+“Zet deze e‑mail/dit document om naar een beknopte managementsamenvatting (max. 5 bullets).”
+
+Prompt 3 – E‑mails samenvatten en prioriteren na vakantie
+
+“Vat alle e‑mails samen die ik in de afgelopen twee weken heb ontvangen en prioriteer ze op urgentie en impact voor mijn projecten.”","Step 1 - In Excel, analyze data with Copilot using this prompt&#58; “Compare average cost and lead time of aluminum vs titanium for part RC-CLMP-2025.”","[""Increased efficiency"",""Increased creativity / innovation"",""Enhanced collaboration""]",,"20","Project / Program Management",

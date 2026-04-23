@@ -1,0 +1,37 @@
+﻿"Created By","Use Case Title","Use Case Description","Use Case Journey","Use Case Benefits","Risk(s) or Mitigations","Estimated %23 of users","Your Role","If you didn't find a suitable option above, please specify your role here ___________ (non-mandatory)"
+"Caroline Muller","Milestone Readiness Assessment by MOD Open Comments Assessment","Extract all comments listed in the procedure or milestone to prevent risks and issues for next system executions.
+Prioritize open comments, minimizing risks, preventing issues, saving time.
+
+","<div>Step 1&#58; Collecting Data 
+1. Open MOD tool EF Milestone Overview Dashboard 2.0 -
+Spotfire and export open comments for baseline procedure 
+or for the whole milestones in Excel format.
+2. Download procedure file as PDF.<p>Step 2&#58;&#160;Analysis in Copilot Chat
+Assess criticality of all open comments that can be blockers for 
+smooth procedure or MS execution on the next system. </p><p>Prompt&#58;&#160;Read the file [EPPQ.pdf]. Verify which comments from [EPPQ Comments Summary.exe]
+are still applicable and assess whether any of these comments represent a blocking issue 
+for the operator to execute the procedure. Give me summary table for bocking comments 
+with ID reference and follow up proposal. Use columns&#58; Comment ID; Comment (Summary)&#58; 
+Status (applicable or not), Why Blocking.
+</p><p>Step 3&#58;&#160;Draft a Follow-Up Email
+Use Copilot in Outlook to draft a professional email summarizing 
+the MOD feedback and outlining next steps.</p><p>Prompt&#58;&#160;Write an email to the ME team summarizing MOD feedback and 
+outlining next steps. Keep the tone professional and action&#2;oriented, ready to copy paste.</p></div>","[""Increased efficiency"",""Enhanced collaboration"",""Improved accuracy"",""Better decision making""]",,"300","Manufacturing / Production / Maintenance","Production Engineers"
+"Caroline Muller","Milestone Readiness Assessment by MOD Containments Assessment","Verify the completeness of all containments that currently implemented or should be listed in the 
+CPD procedure to prevent risks and issues during next system execution or KD13 deep dive.
+Minimizing risks, preventing issues, saving time","<div>Step 1&#58;&#160;Collecting Data 
+1. Open containment dashboard EF EXE AIR dashboard -
+Spotfire and export data for all AIRs that have missing 
+containments accepted ambition list for your FC.
+2. Download procedure file as PDF<p>Step 2&#58;&#160;Ask copilot to verify completeness and compare with 
+AIR admin. </p><p>Prompt&#58;&#160;Review the document / [EF Engineering - MAKE FIRST LIGHT (MFL) 
+(Provisional).pdf - All Documents] and extract all AIR references. 
+Compare the list of all open AIR's on this operational step from file [EF Milestone 
+Overview Dashboard 2.0 - AIR Summary (2).csv]. 
+Give me the table of all missing AIRs, that we should follow up and add the AIR 
+reference to the procedure.</p><p>Step 3&#58;&#160;Draft containment impact analysis for follow up.</p><div style=""margin-top&#58;14px;margin-bottom&#58;14px;"">Review procedure and extract all manual steps. A manual step is any action that goes beyond standard 
+operations such as opening CPD, starting CPD, selecting scenarios, reading reports for verifying final 
+specs, or saving MCs. Focus only on additional actions that require user intervention or manual execution 
+outside these standard steps. Compare this manual action list.<br></div></div>","[""Increased efficiency"",""Improved accuracy"",""Enhanced collaboration"",""Reduced risk"",""Cost savings""]",,"300","Manufacturing / Production / Maintenance","Production Engineers"
+"Wolf Chang","quick generate control chart (SPC) & CPK analysis with excel data","During quality improvement projects, sometimes I receive shopfloor test data in excel, but take much time to apply and utilize minitab or other software to create statistical analysis. I use copilot for it and in few min it's done, the team can proceed with statistics reference and make right direction based on data talk.","Step 1 - upload excel with test data,<br>prompt1&#58;&#160;I'm going to do SPC for a test, you are a six sigma master black belt, please help me to create a X bar R chart based on this excel.<br>prompt2&#58;in the control chart, put spec and target value on.<br>prompt3&#58;Generate capability indices (Cp, Cpk).&#160;prompt<br>4&#58;give me standard diviation s&#160;<br><span style=""background-color&#58;rgb(255, 255, 255);display&#58;inline !important;"">prompt 5&#58;</span><span style=""background-color&#58;rgb(255, 255, 255);display&#58;inline !important;"">draw x bar chart with x bar + -1s, and +-2s and +-3s<p>In my case, I stop here, of course you can continue with your analysis in following prompts, i.e. add Western Electric / Nelson rule tests, Histogram with spec overlay, Normality test &amp; probability plot, A full SPC capability report (Cp, Cpk, Pp, Ppk)</p></span>","[""Increased efficiency"",""Better decision making""]","people who are not familiar with statistics might miss reading the information or not knowing how to use the analysis, so still people should well trained","20","Manufacturing / Production / Maintenance","Global Quality & Excellence, Quality business partner for Tainan factory Fab "
+"Wolf Chang","Translate Quality maturity assessment model to local languages, faster and easier for shop floor engineers understanding","I'm doing the quality maturity assessment in Tainan factory shop floor teams, and I found shop floor engineers asked many questions and took much time for them to read through all text and understand the meaning in the model, so I use copilot to create a dual language version and tried in one team, it went much faster and easier. And I check the quality of translation, it was really good. ","Step 1 - upload the original quality maturity assessment model file (my case in ppt)<p>Pormpt&#58; translate this model into a dual language model, place Chinese under English, keep the format in powerpoint, note that it's for TNF shop floor engineers. Then wait few min.&#160;</p><p>Step2. download the dual lang version from the link copilot provide.</p>","[""Enhanced collaboration""]","Risk of co pilot miss understand the quality terminology (the content contains many quality specific terms), but in this case, I did not see any error translate, suggest still have a expert to do a check on dual language version.. ","10","Manufacturing / Production / Maintenance","GQ&E Asia, Quality Business partner for TNF Fab"
